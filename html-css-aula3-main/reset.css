@@ -1,0 +1,59 @@
+/* Reset CSS Moderno */
+
+/* Remove margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Melhor renderização de fontes */
+  html {
+    font-size: 100%; /* 16px padrão */
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+  }
+  
+  /* Normaliza estilos de body */
+  body {
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    
+  }
+  
+  /* Remove estilos padrão de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove decorações de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Ajusta imagens para serem responsivas */
+  img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Adiciona suavidade nas animações */
+  *, *::before, *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  /* Remove estilos padrão de botões */
+  button {
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  /* Tabela com espaçamento correto */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
