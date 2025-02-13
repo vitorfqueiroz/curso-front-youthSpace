@@ -1,5 +1,5 @@
 body{
-    background-image: url(fidel-fernando-anXIt1o1n00-unsplash.jpg);
+    background-image: url(img/fidel-fernando-anXIt1o1n00-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,4 +41,5 @@ h1{
 .subTopics{
     font-weight:lighter;
     color: #786679;
+    
 }
