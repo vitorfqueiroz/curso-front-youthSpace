@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+</head>
+<body>
+   <main>
+        <div class="container_title">
+            <h1>Ficha de Anamnese</h1>
+        </div>
+        <div class="container_form">
+            <!-- NOME -->
+            <div class="form_name">
+                <label id="label_name" for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Nome">
+                <input type="text" id="name" name="name" placeholder="Sobrenome">  
+            </div>
+            
+            <!-- NASCIMENTO -->
+            <div class="form">
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="number" id="nascimento" name="nascimento" placeholder="MM/DD/YYYY"> 
+            </div>
+
+            <!-- EMAIL -->
+            <div class="form">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com">
+            </div>
+
+            <!-- GÊNERO -->
+            <div class="form_genero">
+                <label for="genero">Gênero</label>
+                <div class="genero">
+                    <div class="genero_man">
+                        <input type="radio" id="genero" name="genero" value="masculino">
+                        <label for="genero">Masculino</label>
+                    </div>
+                    <div class="genero_woman">
+                        <input type="radio" id="genero" name="genero" value="feminino">
+                        <label for="genero">Feminino</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IDADE -->
+            <div class="form">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" name="idade" min="0" max="120" placeholder="ex: 23">
+            </div>
+
+            <!-- PROFISSÃO -->
+            <div class="form">
+                <label for="carreira">Carreira</label>
+                    <select name="carreira" id="carreira">
+                        <option value="devFrontEnd">Desenvolvedor Front-End</option>
+                        <option value="devBackEnd">Desenvolvedor Back-End</option>
+                        <option value="devDataScience">Data Science</option>
+                        <option value="devDesigner">UX & Designer</option>
+                    </select>
+            </div>
+
+            <!-- UNIDADE -->
+            <div class="form">
+                <label for="city">Unidade</label>
+                <div class="city">
+                    <div class="city_fortaleza">
+                        <input type="radio" id="city" name="city" value="fortaleza">
+                        <label for="city">Fortaleza</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="city" name="city" value="maracanau">
+                        <label for="city">Maracanaú</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MENSAGEM -->
+            <div class="form_message">
+                <label for="message">Fale sobre você</label>
+                <textarea name="message" id="message" rows="10"></textarea>
+            </div>
+            <div class="form_button">
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+   </main> 
+</body>
+</html>

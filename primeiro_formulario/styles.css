@@ -1,0 +1,155 @@
+body{
+    background-color: #90bdfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+
+}
+main{
+    margin: 72px 131px 72px 131px;
+    width: 125vh;
+}
+.container_title{
+    background-color: #ffffff;
+    border-bottom: 1px solid #d7d8e0;
+    border-radius: 20px 20px 0px 0px;
+}
+.container_title h1{
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: #2c3345;
+    padding: 40px 52px 40px 52px;
+    margin: 0;
+}
+.container_form{
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.form_name{
+    display: flex;
+    align-items: center;
+    margin: 28px 40px 12px 40px;
+    padding: 12px 10px 12px 10px;
+    font-size: 16px;
+    
+}
+.form_name #label_name{
+    width: 64.5%;
+}
+.form_name #name{
+    font-size: 16px;
+    padding: 10px 0px 10px 10px;
+    margin-left: 10px;
+
+}
+.form{
+    display: flex;
+    margin: 12px 40px 12px 40px;
+    padding: 12px 10px 12px 10px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+.form #nascimento{
+    padding: 10px;
+    width: 64.5%;
+}
+.form #email{
+    padding: 15px;
+    width: 64.5%;
+}
+.form_genero{
+    display: flex;
+    flex-direction: row;
+    margin: 12px 40px 12px 40px;
+    padding: 12px 10px 12px 10px;
+    font-size: 16px;
+
+}
+.genero{
+    margin-left: 13.5vw;
+    
+}
+#genero{
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+.genero_man{
+    margin-bottom: 5px;
+
+}
+#idade{
+    padding: 15px;
+    width: 64.5%;
+}
+#carreira{
+    padding: 15px;
+    width: 64.5%;
+    background-color: #dbe9ff;
+    border: 1px solid #b9bec9;
+    border-radius: 5px;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 64.5%;
+}
+.city_fortaleza{
+    margin-bottom: 5px;
+
+}
+#city{
+    transform: scale(1.5);
+    margin-right: 10px;  
+
+}
+.form_message{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 12px 40px 12px 40px;
+    padding: 12px 10px 12px 10px;
+    font-size: 16px;
+    
+}
+input{
+    background-color: #dbe9ff;
+    border-radius: 3px;
+    border: 1px solid #b9bec9;
+    resize: none;
+}
+
+.form_message label{
+    padding-bottom: 10px;
+}
+.form_message  textarea{
+    background-color: #dbe9ff;
+    border-radius: 5px;
+    border: 1px solid #b9bec9;
+    resize: none;
+}
+.form_button{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #d7d8e0;
+    padding: 20px 0px 20px 0px;
+}
+.form_button button{
+    background-color: #2e69ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 50px 15px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+    .form_button button:hover {
+        background-color: #1a4bb8;
+}
