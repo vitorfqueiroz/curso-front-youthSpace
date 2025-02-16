@@ -1,0 +1,45 @@
+body{
+    background-image: url(img/fidel-fernando-anXIt1o1n00-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+div{
+    box-shadow: 0px 0px 5px 5px #888888;
+    font-family: "Smooch Sans", serif;
+    background-color: #ffeaff;
+    border: 1px solid #ffffff;
+    text-align: justify;
+    border-radius: 30px;
+    padding-right: 40px;
+    font-size: 40px;
+    width: 1100px;
+    margin: 100px;
+    opacity: 0.90;
+
+}
+h1{
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #786679;
+
+}
+.subTitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #786679;
+    font-size: 40px;
+
+}
+.topics{
+    font-weight: bold;
+    color: #786679;
+
+}
+.subTopics{
+    font-weight:lighter;
+    color: #786679;
+    
+}
