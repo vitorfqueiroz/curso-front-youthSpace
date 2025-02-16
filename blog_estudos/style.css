@@ -1,0 +1,229 @@
+.color1 {color: #32180a;}
+.color2 {color: #56331a;}
+.color3 {color: #855d34;}
+.color4 {color: #c18f52;}
+.color5 {color: #f1cf74;}
+
+/* Reset CSS Moderno */
+
+/* Remove margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Melhor renderização de fontes */
+  html {
+    font-size: 100%; /* 16px padrão */
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+  }
+  
+  /* Normaliza estilos de body */
+  body {
+    line-height: 1.5;
+    font-family: "Smooch Sans", serif;
+    text-rendering: optimizeSpeed;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Remove estilos padrão de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove decorações de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Ajusta imagens para serem responsivas */
+  img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Remove bordas de elementos interativos no foco para melhor acessibilidade */
+  button, input, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  
+  /* Adiciona suavidade nas animações */
+  *, *::before, *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  /* Remove estilos padrão de botões */
+  button {
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  /* Tabela com espaçamento correto */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+body{
+    background-color: #56331a;
+}
+nav {
+    background-color:#32180a;
+    padding:30px;
+    margin-bottom: 50px;
+}
+.sidebar {
+    display: flex;
+    align-items: baseline
+}
+.titleOne{
+    color:#c18f52;
+    font-size: 50px;
+}
+ul {
+    display: flex;
+    color: #c18f52;
+    margin-left: auto;
+
+}
+li {
+    font-size: 30px;
+    padding-left: 50px;
+
+}
+.firstContent{
+    display: flex;
+    margin-bottom: 60px;
+
+}
+.contentStudy{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: white
+}
+.materialOne{
+    color:#f1cf74;
+    font-size: 20px;
+    padding: 20px 20px 200px;
+    border: 2px solid #f1cf74; ;
+    border-radius: 20px;
+    width: 60%;
+    position: relative;
+}
+.materialOne::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://imgs.search.brave.com/OcEb0cTUj51fZlRdP7qKEzZ_BdFSWIe7VvrDCppUxZ4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/MGZmNjkwY2Q3YjA1/MzdlZGI5OWEyOWEv/NjEyZmQ1NWMwMTYz/OTRkMWY4NmY4YmNk/X0dvbHBlLWRhLW1h/aW9yaWRhZGUtZS1E/b20tUGVkcm8tSUkt/aW1wZXJhZG9yLWFv/cy0xNC1hbm9zLmpw/Zw");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+    opacity: 0.5;
+}
+.materialTwo{
+    color:#f1cf74;
+    font-size: 20px;
+    padding: 20px 20px 160px;
+    border: 2px solid #f1cf74; ;
+    border-radius: 20px;
+    width: 60%;
+    position: relative;
+}
+.materialTwo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://imgs.search.brave.com/k-nNU1SYR6TVdjjX-E9qL3r4MjWsDNse5GQ_FOQmRuY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuYmlvbG9naWFu/ZXQuY29tLzIwMjMv/MDMvMS1yZXByZXNl/bnRhY2FvLWRlLXZp/cnVzLWJhY3Rlcmlh/cy1lLWZ1bmdvcy1v/YmpldG9zLWRlLWVz/dHVkby1kYS1taWNy/b2Jpb2xvZ2lhLmpw/Zw");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(3px);
+    z-index: -1;
+    opacity: 0.5;
+}
+.materialThree{
+    color:#f1cf74;
+    font-size: 20px;
+    padding: 20px 20px 210px;
+    border: 2px solid #f1cf74; ;
+    border-radius: 20px;
+    width: 60%;
+    position: relative;
+    
+}
+.materialThree::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://imgs.search.brave.com/PSY20J0Grb9wrRX6Z5vULOwfIKkil3leJpFUl9Z0RtU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudG9kYW1hdGVy/aWEuY29tLmJyL3Vw/bG9hZC9zaC91dC9z/aHV0dGVyc3RvY2s5/MDMzMTI3OS1ja2Uu/anBn");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(3px);
+    z-index: -1;
+    opacity: 0.5;
+}
+.titleTwo{
+    margin-bottom: 10px;
+    color:#f1cf74;
+    font-size: 25px;
+    
+}
+
+.word{
+    text-align: justify;
+    margin: 0 auto;
+}
+.contentStudy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+article, h2{
+    margin-bottom: 20px;
+}
+#buttom{
+    background-color: #f1cf74;
+    color: #32180a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;;
+    cursor: pointer;
+    transition:0.3s;
+    }
+    
+    #buttom:hover {
+        background-color: #d1b45e;
+    }
+
+footer {
+    background-color: #32180a;
+    color: #c18f52;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+}
