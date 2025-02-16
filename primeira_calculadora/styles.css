@@ -1,0 +1,101 @@
+*{
+ font-family: "Share Tech", serif;
+  font-weight: 600;
+}
+body{
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    background-color: #212121;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+}
+.logo{
+    display: flex;
+    justify-content: left ;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    #red{
+        margin-left: 10px;
+    }
+}
+.options{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    font-size: 15px;
+}
+.icons{
+    background: none;  
+    padding: 10px;
+    margin: 0;
+    border: none;
+    font: inherit;
+    color: #ffffffe6;
+    cursor: pointer;
+    height: 7vh;
+}
+#red:hover{
+    color: #ff0000;
+    
+}
+.icons:hover{
+    color: #808080;
+}
+.input_area{
+    display: flex;
+    justify-content: center;
+    input{
+        background-color: #ffffffe6;
+        border-radius: 3px;
+        border: none;
+        margin: 0px 10px;
+        padding: 20px;    
+        border: none;
+        width: 100%;
+    }
+}
+table{
+    width: 100%;
+    border-spacing: 10px;
+    
+}
+tr{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+td{
+    text-align: center;
+    
+}
+.button{
+    background-color: #3b3b3b;
+    border:none;
+    color: #ffffffe6;
+    font-size: 35px;
+    width: 50px;
+    height: 60px;
+    border-radius: 3px;
+}
+.button:hover{
+    background-color: #ff5722;
+}
+.operator{
+    background-color: #ff9800;
+}
+.operator:hover{
+    background-color: #003366;
+}

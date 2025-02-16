@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <title>Primeira calculadora</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-circle" style="color: #ff0000"; id="red"></i>
+                <i class="fa-solid fa-circle" style="color: #ffff00"></i>
+                <i class="fa-solid fa-circle" style="color: #008000"></i>
+            </div>
+            <div class="options">
+                <button class="icons"><i class="fa-solid fa-minus"></i></button>
+                <button class="icons"><i class="fa-regular fa-square"></i></button>
+                <button id="red" class="icons"><i class="fa-solid fa-x"></i></button>
+            </div>
+        </div>
+        <div class="input_area">
+            <input type="text" id="display" disabled>
+        </div>
+        <!-- tabela com botões -->
+         <!-- primeira linha -->
+        <table>
+            <tr>
+                <td><button class="button" onclick="none">1</button></td>
+                <td><button class="button" onclick="none">2</button></td>
+                <td><button class="button" onclick="none">3</button></td>
+                <td><button class="button operator" onclick="none">+</button></td>
+            </tr>
+            <!-- segunda linha -->
+            <tr>
+                <td><button class="button" onclick="none">4</button></td>
+                <td><button class="button" onclick="none">5</button></td>
+                <td><button class="button" onclick="none">6</button></td>
+                <td><button class="button operator" onclick="none">–</button></td>
+            </tr>
+            <!-- terceira linha -->
+            <tr>
+                <td><button class="button" onclick="none">7</button></td>
+                <td><button class="button" onclick="none">8</button></td>
+                <td><button class="button" onclick="none">9</button></td>
+                <td><button class="button operator" onclick="none">×</button></td>
+            </tr>
+            <!-- quarta linha -->
+            <tr>
+                <td><button class="button" onclick="none">C</button></td>
+                <td><button class="button" onclick="none">0</button></td>
+                <td><button class="button" onclick="none">=</button></td>
+                <td><button class="button operator" onclick="none">÷</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://kit.fontawesome.com/70c610658b.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
